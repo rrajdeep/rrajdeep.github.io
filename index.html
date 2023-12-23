@@ -37,7 +37,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#myProjects">Projects</a>
+              <a class="nav-link" href="#myWork">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contactMe">Contact</a>
@@ -56,9 +56,9 @@
       <h3 class="webDeveloper">Full Stack Developer</h3>
     </div>
     <div class="social">
-      <a href="https://github.com/rrajdeep"><i class="social-icon fab fa-github fa-2x"></i></a>
-      <a href="https://www.linkedin.com/in/rajdeep-rathore/"><i class="social-icon fab fa-linkedin-in fa-2x"></i></a>
-      <a href="mailto:rajdeeprathore.ee@gmail.com"><i class="social-icon fas fa-envelope fa-2x"></i></a>
+      <a href="https://github.com/rrajdeep" target="_blank"><i class="social-icon fab fa-github fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/rajdeep-rathore/" target="_blank"><i class="social-icon fab fa-linkedin-in fa-2x"></i></a>
+      <a href="mailto:rajdeeprathore91@gmail.com"><i class="social-icon fas fa-envelope fa-2x"></i></a>
     </div>
     <div class="downAngle">
       <a href="#about"><i class="fa fa-angle-down"></i></a>
@@ -84,14 +84,14 @@
           <br>
           It's been always a fun to turn solution of a problem into program.
           Learning Web Development has enabled me to use my creativity and bring ideas into reality.
-          With primary focus on HTML, JavaScript and CSS I'm comfortable using tech such as Node.js, Express.js and
+          With primary focus on React.js I'm comfortable using tech such as Node.js, Express.js and
           mongoDB.
         </p>
         <br>
         <div class="skills">
           <div class="">
             <h2>Skills</h2>
-            <h4>Here are few technologies I've been working with recently:</h4>
+            <h5 style="margin-bottom: 1.5rem;">Here are few technologies I've been working with recently:</h5>
             <table>
               <tr>
                 <td>HTML</td>
@@ -106,12 +106,17 @@
               <tr>
                 <td>MongoDB</td>
                 <td>REACT.JS</td>
+                <td>Vite.js</td>
+              </tr>
+              <tr>
+                <td>Next.js</td>
+                <td>Typescript</td>
                 <td>DSA</td>
               </tr>
             </table>
             <br>
-            <button class="btn btn-primary" type="button" name="button">Resume</button>
-            <button type="button" class="btn btn-outline-secondary">My Work</button>
+            <a href="static/Rajdeep_Rathore_Resume.pdf" class="resumeLink btn btn-primary" target="_blank">Resume</a>
+            <a href="#myWork" class="resumeLink btn btn-outline-secondary">My Work</a>
           </div>
         </div>
       </div>
@@ -120,7 +125,112 @@
   </section>
 
   <!-- Featured Projects -->
-  <section class="container">
+  <section class="container" id="myWork">
+    <!-- Device management sytem -->
+    <div class="p-item mt-5 row">
+      <div class="p-item-text col">
+        <div class="p-item-heading item1">
+          <h2>Device Management System</h2>
+        </div>
+        <div class="p-item-num item2">
+          <h3>01</h3>
+        </div>
+        <div class="item3">
+          <br>
+          <p>Advanced Device Management System to remotely control & manage devices.</p>
+          <p>Frontend Tech: React.js, Vite.js, Emotion & Bootstrap.</p>
+          <div class="d-flex gap-2">
+            <a href="https://dms.datavector.in/" target="_blank" class="btn btn-primary">Live</a>
+            <button class="btn btn-secondary" disabled>Repo</button>
+            <!-- <a href="https://github.com/rrajdeep/AirBnb_Clone.git"><button class="btn btn-secondary">Repo</button></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="p-item-image col">
+        <img src="images/dms.png" class="img-fluid" alt="device-management-image" width="650" height="450">
+      </div>
+    </div>
+    <br>
+
+    <!-- Ticket management sytem -->
+    <div class="p-item mt-5 row">
+      <div class="p-item-text col">
+        <div class="p-item-heading item1">
+          <h2>Ticket Management System</h2>
+        </div>
+        <div class="p-item-num item2">
+          <h3>02</h3>
+        </div>
+        <div class="item3">
+          <br>
+          <p>Ticket Management System for faster problem resolution.</p>
+          <p>Frontend Tech: React.js, Vite.js, Typescript, Emotion & Bootstrap</p>
+          <div class="d-flex gap-2">
+            <a href="https://tms.briotouch.com/" target="_blank" class="btn btn-primary">Live</a>
+            <button class="btn btn-secondary" disabled>Repo</button>
+            <!-- <a href="https://github.com/rrajdeep/AirBnb_Clone.git"><button class="btn btn-secondary">Repo</button></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="p-item-image col">
+        <img src="images/tms.png" class="img-fluid" alt="ticket-management-image" width="650" height="450">
+      </div>
+    </div>
+    <br>
+
+    <!-- DMS portfolio -->
+    <div class="p-item mt-5 row">
+      <div class="p-item-text col">
+        <div class="p-item-heading item1">
+          <h2>DMS Portfolio</h2>
+        </div>
+        <div class="p-item-num item2">
+          <h3>03</h3>
+        </div>
+        <div class="item3">
+          <br>
+          <p>SaaS portfolio for Device Management System showcasing it's features.</p>
+          <p>Frontend Tech: React.js, Vite.js & Bootstrap</p>
+          <div class="d-flex gap-2">
+            <button class="btn btn-primary" disabled>Live</button>
+            <button class="btn btn-secondary" disabled>Repo</button>
+          </div>
+        </div>
+      </div>
+      <div class="p-item-image col">
+        <img src="images/dmsportfolio.png" class="img-fluid" alt="ticket-management-image" width="650" height="450">
+      </div>
+    </div>
+    <br>
+
+    <!-- DMS portfolio -->
+    <div class="p-item mt-5 row">
+      <div class="p-item-text col">
+        <div class="p-item-heading item1">
+          <h2>Bookskart</h2>
+        </div>
+        <div class="p-item-num item2">
+          <h3>04</h3>
+        </div>
+        <div class="item3">
+          <br>
+          <p>Book selling website with functionality of cart and oerder history.</p>
+          <p>Technologies: React.js & Bootstrap (frontend), Node.js, Express.js & mongoDB (backend)</p>
+          <div class="d-flex gap-2">
+            <button class="btn btn-primary" disabled>Live</button>
+            <a href="https://github.com/rrajdeep/bookskart"><button class="btn btn-secondary">Repo</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="p-item-image col">
+        <img src="images/bookskart.png" class="img-fluid" alt="bookskart-image" width="650" height="450">
+      </div>
+    </div>
+    <br>
+
+
+
+
     <!-- Project Airbnb -->
     <div class="p-item mt-5 row">
       <div class="p-item-text col">
@@ -128,14 +238,14 @@
           <h2>Airbnb Clone</h2>
         </div>
         <div class="p-item-num item2">
-          <h3>01</h3>
+          <h3>05</h3>
         </div>
         <div class="item3">
           <br>
           <p>A clone of AirBnb site with functionality of adding and managing hotels, booking etc.</p>
           <p>Technologies used: node.js, mongoDB, HTML, Bootstrap, CSS & JavaScript</p>
           <div class="d-flex gap-2">
-            <a href="https://hotel-booking-wbm2.onrender.com/" target="_blank"><button class="btn btn-primary">Live</button></a>
+            <button class="btn btn-primary" disabled>Live</button>
             <a href="https://github.com/rrajdeep/AirBnb_Clone.git"><button class="btn btn-secondary">Repo</button></a>
           </div>
         </div>
@@ -146,33 +256,9 @@
     </div>
     <br>
 
-    <!-- Project Quiz App -->
-    <div class="p-item mt-5 row">
-      <div class="p-item-text col">
-        <div class="p-item-heading item1">
-          <h2>Quiz App</h2>
-        </div>
-        <div class="p-item-num item2">
-          <h3>02</h3>
-        </div>
-        <div class="item3">
-          <br>
-          <p>A simple quiz app with integrated timer.</p>
-          <p>Technlogies used: JavaScript, HTML and CSS</p>
-          <div class="d-flex gap-2">
-            <a href=""><button class="btn btn-primary">Live</button></a>
-            <a href=""><button class="btn btn-secondary">Repo</button></a>
-          </div>
-        </div>
-      </div>
-      <div class="p-item-image col">
-        <img src="images/quiz-app.PNG" class="img-fluid" alt="airbnb-clone-image">
-      </div>
-    </div>
-    <br>
 
     <!-- Project LinkedIn -->
-    <div class="p-item mt-5 row">
+    <!-- <div class="p-item mt-5 row">
       <div class="p-item-text col">
         <div class="p-item-heading item1">
           <h2>Static Linkedin Profile</h2>
@@ -194,10 +280,10 @@
         <img src="images/linkedin.PNG" class="img-fluid" alt="airbnb-clone-image">
       </div>
     </div>
-    <br>
+    <br> -->
 
     <!-- Project Todo list -->
-    <div class="p-item mt-5 row">
+    <!-- <div class="p-item mt-5 row">
       <div class="p-item-text col">
         <div class="p-item-heading item1">
           <h2>To do list</h2>
@@ -219,7 +305,7 @@
         <img src="images/todolist.PNG" class="img-fluid" alt="airbnb-clone-image">
       </div>
     </div>
-    <br>
+    <br> -->
 
     <!-- Project weather dashboard -->
     <div class="p-item mt-5 row">
@@ -228,7 +314,7 @@
           <h2>My Weather</h2>
         </div>
         <div class="p-item-num item2">
-          <h3>05</h3>
+          <h3>06</h3>
         </div>
         <div class="item3">
           <br>
@@ -242,6 +328,33 @@
       </div>
       <div class="p-item-image col">
         <img src="images/my-weather.PNG" class="img-fluid" alt="airbnb-clone-image">
+      </div>
+    </div>
+    <br>
+
+
+    
+    <!-- Project Quiz App -->
+    <div class="p-item mt-5 row">
+      <div class="p-item-text col">
+        <div class="p-item-heading item1">
+          <h2>Quiz App</h2>
+        </div>
+        <div class="p-item-num item2">
+          <h3>07</h3>
+        </div>
+        <div class="item3">
+          <br>
+          <p>A simple quiz app with integrated timer.</p>
+          <p>Technlogies used: JavaScript, HTML and CSS</p>
+          <div class="d-flex gap-2">
+            <a href=""><button class="btn btn-primary">Live</button></a>
+            <a href=""><button class="btn btn-secondary">Repo</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="p-item-image col">
+        <img src="images/quiz-app.PNG" class="img-fluid" alt="airbnb-clone-image">
       </div>
     </div>
     <br>
